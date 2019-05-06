@@ -1,0 +1,28 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krankenkampf/plsbot.git"
+  },
+  "author": "SC",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "11.4.2",
+    "ffmpeg-binaries": "4.0.0",
+    "opusscript": "0.0.6",
+    "ytdl-core": "0.29.1"
+  },
+  "engines": {
+    "node": "v10.15.3"
+  },
+  "bugs": {
+    "url": "https://github.com/krankenkampf/plsbot/issues"
+  },
+  "homepage": "https://github.com/krankenkampf/plsbot#readme"
+}
