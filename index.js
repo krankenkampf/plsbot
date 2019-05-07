@@ -5,7 +5,7 @@ const {
     token,
 } = require('./config.json');
 const ytdl = require('ytdl-core');
-require('http').createServer().listen(3000);
+const server = require('http').createServer().listen(3000);
 
 const client = new Discord.Client();
 
